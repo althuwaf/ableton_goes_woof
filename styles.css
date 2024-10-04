@@ -1,0 +1,70 @@
+
+*{
+    padding:0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+ }
+nav{
+    height: 80px;
+    width:100%;
+
+}
+.ul1{
+    float:left
+   
+}
+.ul1 li{
+    display:inline-block;
+    margin-top:10px;
+    margin-left:25px;
+    margin-right:0px;
+    
+    
+}
+
+.logo{
+    height: 25px;
+    
+}
+
+.onlyblue{
+    color:rgb(0,0, 255);
+}
+
+
+.ul2{
+    float:right;
+
+}
+
+.ul2 li{
+    display:inline-block;
+    margin-top:35px ;
+    margin-right:25px ;
+}
+
+h1{
+    font-family:futura-pt,Avenir,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #ff764d;
+        max-width: fit-content;
+        margin-left: auto;
+        margin-right: 540px;
+        margin-top:-330px;
+        font-size:75px
+}
+.secondnav ul{
+    float:left;
+}
+
+.secondnav ul li{
+    display:inline-block;
+    margin-left:25px ;
+}
+
+.ashleyimage{
+    height:500px;
+    margin-top: 30px;
+    margin-left:250px
+}
