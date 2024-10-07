@@ -79,3 +79,20 @@ h1{
     font-size:23px;
     font-family:futura-pt,Avenir,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+
+.blue{
+    color:blue;
+
+}
+
+.yellowbox{
+    float:right;
+    margin-top: 50px;
+}
+
+.samsung{
+    float:right;
+    height:100px;
+    margin-bottom:-20px;
+    margin-right:20px;
+}
