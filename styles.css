@@ -1,4 +1,15 @@
-.ashleyimg{
-    width:100%;
-    height:auto;
+*{
+    margin:"0";
+    padding:"0";
+}
+.navlist{
+    list-style-type: none;
+    display: inline-block;
+}
+.navigation{
+    display:"flexbox";
+    justify-content:"flex-end";
+    align-items: center;
+    padding: 20px 50px;
+    box-shadow: 0 1px 8px #ddd;
 }
