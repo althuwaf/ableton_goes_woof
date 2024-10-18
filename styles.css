@@ -1,39 +1,48 @@
-* {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica;
+*{ margin:0;
+    padding:0;
+    font-family: Arial, Helvetica;;
 }
-nav li{
-    list-style-type: none;
-    display: inline-block;
-}
-nav{
-    display:flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding:20px 50px;
-    box-shadow: 0 1px 8px #ddd;
-
-}
-nav a{
-    text-decoration: none;
-    color:#555;
-    transition: all 0.3s ease 0s;
-}
-nav a:hover {
-    color: #b2dfdb;}
-
-img{
+nav ul{
+    list-style-type:none;
     margin-right:auto;
 }
+nav li{
+    display:inline-block;
+    margin-right:10px;
+    margin-left:10px;
+    
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 1px 8px #ddd;
+    padding-top:25px;
+    padding-bottom: 25px;
+    Padding-right:10px;
+    padding-left:10px;
 
-/* a few questions: 1. how to set and define and actually be comfortable with the size of the logo.
-basically how to set logo the best on nav.
-2.what does the transition function we did on the nav a do
-3.how does setting margin-right on auto moved the logo to the left hand side. baically how to master margin 
-and padding properties and how to set values on them and all that.
-4.box shadow property, how to better use it.
-5. again master padding and margin and understand what to do and choose each time. like really be comfortable with it
-so that the next time you dont have to be confused with this again and ask yourself. ohh, how did he knew how to do that?
-6. differene between flex and flexbox
-7. what does it mean make a list item inline. does it make them arrange all on the same line? */
+
+}
+button{
+    background-color: rgb(255, 12, 255);
+    border: none;
+    color:white;
+    font-size:1em;
+    padding:auto;
+    width:100px;
+    height:40px;
+    font-weight: bold;
+    margin-right:10px;
+}
+
+li a{
+    color: black;
+    text-decoration: none;
+    
+}
+
+button a{
+    color: white;
+    text-decoration: none;
+}
