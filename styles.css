@@ -17,8 +17,8 @@ nav{
     justify-content: center;
     align-items: center;
     box-shadow: 0px 1px 8px #ddd;
-    padding-top:25px;
-    padding-bottom: 25px;
+    padding-top:5px;
+    padding-bottom: 5px;
     Padding-right:10px;
     padding-left:10px;
 
@@ -45,4 +45,9 @@ li a{
 button a{
     color: white;
     text-decoration: none;
+}
+
+.img{
+    width:100px;
+    height:100px;
 }
